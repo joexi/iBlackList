@@ -21,6 +21,24 @@
 		180B8FE516F9B52F00A223D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B8FC616F9B52F00A223D2 /* Foundation.framework */; };
 		180B8FED16F9B52F00A223D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 180B8FEB16F9B52F00A223D2 /* InfoPlist.strings */; };
 		180B8FF016F9B52F00A223D2 /* iBlackListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B8FEF16F9B52F00A223D2 /* iBlackListTests.m */; };
+		180B8FFB16F9B54F00A223D2 /* BLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B8FFA16F9B54F00A223D2 /* BLRootViewController.m */; };
+		180B8FFF16F9B5D900A223D2 /* PathHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B8FFE16F9B5D900A223D2 /* PathHelper.m */; };
+		180B900216F9B60000A223D2 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B900116F9B60000A223D2 /* FileManager.m */; };
+		180B900416F9B68500A223D2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 180B900316F9B68500A223D2 /* CoreTelephony.framework */; };
+		180B900716F9B6B700A223D2 /* BLBlackListManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B900616F9B6B700A223D2 /* BLBlackListManager.m */; };
+		180B900A16F9BBDB00A223D2 /* BLContacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B900916F9BBDB00A223D2 /* BLContacter.m */; };
+		180B900D16F9BCE900A223D2 /* BLContacterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B900C16F9BCE800A223D2 /* BLContacterManager.m */; };
+		180B901016F9C39400A223D2 /* BLBlackListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B900F16F9C39400A223D2 /* BLBlackListInfo.m */; };
+		18740A1716FAB88D00D57CEC /* BLContacterPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18740A1616FAB88D00D57CEC /* BLContacterPhoneInfo.m */; };
+		18740A1B16FABEFF00D57CEC /* BLAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18740A1A16FABEFF00D57CEC /* BLAnimationManager.m */; };
+		18740A1E16FAE61300D57CEC /* BLBlackListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18740A1D16FAE61300D57CEC /* BLBlackListTableViewCell.m */; };
+		18740A2116FAE74400D57CEC /* BLBlackListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18740A2016FAE74400D57CEC /* BLBlackListCell.m */; };
+		18EAA10316F9DEB700671297 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EAA10216F9DEB700671297 /* AddressBook.framework */; };
+		18EAA10616F9DF8700671297 /* BLContacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA10516F9DF8700671297 /* BLContacterViewController.m */; };
+		18EAA10916F9EC2E00671297 /* BLListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA10816F9EC2E00671297 /* BLListViewController.m */; };
+		18EAA10F16F9FFB000671297 /* BLContacterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA10E16F9FFAF00671297 /* BLContacterTableViewCell.m */; };
+		18EAA11216FA0A9F00671297 /* BLAlertManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA11116FA0A9E00671297 /* BLAlertManager.m */; };
+		18EAA11516FA0B3F00671297 /* BLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAA11416FA0B3F00671297 /* BLAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,42 @@
 		180B8FEC16F9B52F00A223D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		180B8FEE16F9B52F00A223D2 /* iBlackListTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBlackListTests.h; sourceTree = "<group>"; };
 		180B8FEF16F9B52F00A223D2 /* iBlackListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBlackListTests.m; sourceTree = "<group>"; };
+		180B8FF916F9B54F00A223D2 /* BLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRootViewController.h; sourceTree = "<group>"; };
+		180B8FFA16F9B54F00A223D2 /* BLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRootViewController.m; sourceTree = "<group>"; };
+		180B8FFD16F9B5D900A223D2 /* PathHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PathHelper.h; sourceTree = "<group>"; };
+		180B8FFE16F9B5D900A223D2 /* PathHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PathHelper.m; sourceTree = "<group>"; };
+		180B900016F9B60000A223D2 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		180B900116F9B60000A223D2 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		180B900316F9B68500A223D2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		180B900516F9B6B700A223D2 /* BLBlackListManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBlackListManager.h; sourceTree = "<group>"; };
+		180B900616F9B6B700A223D2 /* BLBlackListManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBlackListManager.m; sourceTree = "<group>"; };
+		180B900816F9BBDB00A223D2 /* BLContacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLContacter.h; sourceTree = "<group>"; };
+		180B900916F9BBDB00A223D2 /* BLContacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLContacter.m; sourceTree = "<group>"; };
+		180B900B16F9BCE800A223D2 /* BLContacterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLContacterManager.h; sourceTree = "<group>"; };
+		180B900C16F9BCE800A223D2 /* BLContacterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLContacterManager.m; sourceTree = "<group>"; };
+		180B900E16F9C39400A223D2 /* BLBlackListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBlackListInfo.h; sourceTree = "<group>"; };
+		180B900F16F9C39400A223D2 /* BLBlackListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBlackListInfo.m; sourceTree = "<group>"; };
+		18666011170937B4004A17FB /* BLContacterTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLContacterTableViewCellProtocol.h; sourceTree = "<group>"; };
+		1866601217093808004A17FB /* BLBlackListTableViewCellProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLBlackListTableViewCellProtocol.h; sourceTree = "<group>"; };
+		18740A1516FAB88D00D57CEC /* BLContacterPhoneInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLContacterPhoneInfo.h; sourceTree = "<group>"; };
+		18740A1616FAB88D00D57CEC /* BLContacterPhoneInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLContacterPhoneInfo.m; sourceTree = "<group>"; };
+		18740A1916FABEFF00D57CEC /* BLAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAnimationManager.h; sourceTree = "<group>"; };
+		18740A1A16FABEFF00D57CEC /* BLAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAnimationManager.m; sourceTree = "<group>"; };
+		18740A1C16FAE61300D57CEC /* BLBlackListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBlackListTableViewCell.h; sourceTree = "<group>"; };
+		18740A1D16FAE61300D57CEC /* BLBlackListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBlackListTableViewCell.m; sourceTree = "<group>"; };
+		18740A1F16FAE74400D57CEC /* BLBlackListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBlackListCell.h; sourceTree = "<group>"; };
+		18740A2016FAE74400D57CEC /* BLBlackListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBlackListCell.m; sourceTree = "<group>"; };
+		18EAA10216F9DEB700671297 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		18EAA10416F9DF8700671297 /* BLContacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLContacterViewController.h; sourceTree = "<group>"; };
+		18EAA10516F9DF8700671297 /* BLContacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLContacterViewController.m; sourceTree = "<group>"; };
+		18EAA10716F9EC2E00671297 /* BLListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLListViewController.h; sourceTree = "<group>"; };
+		18EAA10816F9EC2E00671297 /* BLListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLListViewController.m; sourceTree = "<group>"; };
+		18EAA10D16F9FFAF00671297 /* BLContacterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLContacterTableViewCell.h; sourceTree = "<group>"; };
+		18EAA10E16F9FFAF00671297 /* BLContacterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLContacterTableViewCell.m; sourceTree = "<group>"; };
+		18EAA11016FA0A9E00671297 /* BLAlertManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAlertManager.h; sourceTree = "<group>"; };
+		18EAA11116FA0A9E00671297 /* BLAlertManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAlertManager.m; sourceTree = "<group>"; };
+		18EAA11316FA0B3E00671297 /* BLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAlertView.h; sourceTree = "<group>"; };
+		18EAA11416FA0B3F00671297 /* BLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +114,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EAA10316F9DEB700671297 /* AddressBook.framework in Frameworks */,
+				180B900416F9B68500A223D2 /* CoreTelephony.framework in Frameworks */,
 				180B8FC516F9B52F00A223D2 /* UIKit.framework in Frameworks */,
 				180B8FC716F9B52F00A223D2 /* Foundation.framework in Frameworks */,
 				180B8FC916F9B52F00A223D2 /* CoreGraphics.framework in Frameworks */,
@@ -101,6 +157,8 @@
 		180B8FC316F9B52F00A223D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18EAA10216F9DEB700671297 /* AddressBook.framework */,
+				180B900316F9B68500A223D2 /* CoreTelephony.framework */,
 				180B8FC416F9B52F00A223D2 /* UIKit.framework */,
 				180B8FC616F9B52F00A223D2 /* Foundation.framework */,
 				180B8FC816F9B52F00A223D2 /* CoreGraphics.framework */,
@@ -112,8 +170,13 @@
 		180B8FCA16F9B52F00A223D2 /* iBlackList */ = {
 			isa = PBXGroup;
 			children = (
-				180B8FD316F9B52F00A223D2 /* BLAppDelegate.h */,
-				180B8FD416F9B52F00A223D2 /* BLAppDelegate.m */,
+				18EAA10C16F9F4FC00671297 /* AppDelegate */,
+				180B8FFC16F9B59A00A223D2 /* Addition */,
+				18740A1816FABEE400D57CEC /* Animation */,
+				18EAA10A16F9F2AB00671297 /* Contacter */,
+				18EAA10B16F9F2BE00671297 /* BlackList */,
+				18EAA11716FA11CA00671297 /* RootController */,
+				18EAA11616FA11BC00671297 /* Alert */,
 				180B8FCB16F9B52F00A223D2 /* Supporting Files */,
 			);
 			path = iBlackList;
@@ -150,6 +213,91 @@
 				180B8FEB16F9B52F00A223D2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180B8FFC16F9B59A00A223D2 /* Addition */ = {
+			isa = PBXGroup;
+			children = (
+				180B900016F9B60000A223D2 /* FileManager.h */,
+				180B900116F9B60000A223D2 /* FileManager.m */,
+				180B8FFD16F9B5D900A223D2 /* PathHelper.h */,
+				180B8FFE16F9B5D900A223D2 /* PathHelper.m */,
+			);
+			path = Addition;
+			sourceTree = "<group>";
+		};
+		18740A1816FABEE400D57CEC /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				18740A1916FABEFF00D57CEC /* BLAnimationManager.h */,
+				18740A1A16FABEFF00D57CEC /* BLAnimationManager.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		18EAA10A16F9F2AB00671297 /* Contacter */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA10416F9DF8700671297 /* BLContacterViewController.h */,
+				18EAA10516F9DF8700671297 /* BLContacterViewController.m */,
+				18740A1F16FAE74400D57CEC /* BLBlackListCell.h */,
+				18740A2016FAE74400D57CEC /* BLBlackListCell.m */,
+				18666011170937B4004A17FB /* BLContacterTableViewCellProtocol.h */,
+				18EAA10D16F9FFAF00671297 /* BLContacterTableViewCell.h */,
+				18EAA10E16F9FFAF00671297 /* BLContacterTableViewCell.m */,
+				180B900816F9BBDB00A223D2 /* BLContacter.h */,
+				180B900916F9BBDB00A223D2 /* BLContacter.m */,
+				180B900B16F9BCE800A223D2 /* BLContacterManager.h */,
+				180B900C16F9BCE800A223D2 /* BLContacterManager.m */,
+				18740A1516FAB88D00D57CEC /* BLContacterPhoneInfo.h */,
+				18740A1616FAB88D00D57CEC /* BLContacterPhoneInfo.m */,
+			);
+			name = Contacter;
+			sourceTree = "<group>";
+		};
+		18EAA10B16F9F2BE00671297 /* BlackList */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA10716F9EC2E00671297 /* BLListViewController.h */,
+				18EAA10816F9EC2E00671297 /* BLListViewController.m */,
+				1866601217093808004A17FB /* BLBlackListTableViewCellProtocol.h */,
+				18740A1C16FAE61300D57CEC /* BLBlackListTableViewCell.h */,
+				18740A1D16FAE61300D57CEC /* BLBlackListTableViewCell.m */,
+				180B900516F9B6B700A223D2 /* BLBlackListManager.h */,
+				180B900616F9B6B700A223D2 /* BLBlackListManager.m */,
+				180B900E16F9C39400A223D2 /* BLBlackListInfo.h */,
+				180B900F16F9C39400A223D2 /* BLBlackListInfo.m */,
+			);
+			name = BlackList;
+			sourceTree = "<group>";
+		};
+		18EAA10C16F9F4FC00671297 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				180B8FD316F9B52F00A223D2 /* BLAppDelegate.h */,
+				180B8FD416F9B52F00A223D2 /* BLAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		18EAA11616FA11BC00671297 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				18EAA11016FA0A9E00671297 /* BLAlertManager.h */,
+				18EAA11116FA0A9E00671297 /* BLAlertManager.m */,
+				18EAA11316FA0B3E00671297 /* BLAlertView.h */,
+				18EAA11416FA0B3F00671297 /* BLAlertView.m */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		18EAA11716FA11CA00671297 /* RootController */ = {
+			isa = PBXGroup;
+			children = (
+				180B8FF916F9B54F00A223D2 /* BLRootViewController.h */,
+				180B8FFA16F9B54F00A223D2 /* BLRootViewController.m */,
+			);
+			name = RootController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +412,22 @@
 			files = (
 				180B8FD116F9B52F00A223D2 /* main.m in Sources */,
 				180B8FD516F9B52F00A223D2 /* BLAppDelegate.m in Sources */,
+				180B8FFB16F9B54F00A223D2 /* BLRootViewController.m in Sources */,
+				180B8FFF16F9B5D900A223D2 /* PathHelper.m in Sources */,
+				180B900216F9B60000A223D2 /* FileManager.m in Sources */,
+				180B900716F9B6B700A223D2 /* BLBlackListManager.m in Sources */,
+				180B900A16F9BBDB00A223D2 /* BLContacter.m in Sources */,
+				180B900D16F9BCE900A223D2 /* BLContacterManager.m in Sources */,
+				180B901016F9C39400A223D2 /* BLBlackListInfo.m in Sources */,
+				18EAA10616F9DF8700671297 /* BLContacterViewController.m in Sources */,
+				18EAA10916F9EC2E00671297 /* BLListViewController.m in Sources */,
+				18EAA10F16F9FFB000671297 /* BLContacterTableViewCell.m in Sources */,
+				18EAA11216FA0A9F00671297 /* BLAlertManager.m in Sources */,
+				18EAA11516FA0B3F00671297 /* BLAlertView.m in Sources */,
+				18740A1716FAB88D00D57CEC /* BLContacterPhoneInfo.m in Sources */,
+				18740A1B16FABEFF00D57CEC /* BLAnimationManager.m in Sources */,
+				18740A1E16FAE61300D57CEC /* BLBlackListTableViewCell.m in Sources */,
+				18740A2116FAE74400D57CEC /* BLBlackListCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +481,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xi junfei (6GD59Q6454)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -332,6 +497,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "EBA1E0A0-9CE5-408E-96C9-587474B31733";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -349,6 +515,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xi junfei (6GD59Q6454)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -357,6 +524,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EBA1E0A0-9CE5-408E-96C9-587474B31733";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -366,10 +534,13 @@
 		180B8FF416F9B52F00A223D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xi junfei (6GD59Q6454)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBlackList/iBlackList-Prefix.pch";
 				INFOPLIST_FILE = "iBlackList/iBlackList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EBA1E0A0-9CE5-408E-96C9-587474B31733";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -377,10 +548,13 @@
 		180B8FF516F9B52F00A223D2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: xi junfei (6GD59Q6454)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iBlackList/iBlackList-Prefix.pch";
 				INFOPLIST_FILE = "iBlackList/iBlackList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EBA1E0A0-9CE5-408E-96C9-587474B31733";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -438,6 +612,7 @@
 				180B8FF516F9B52F00A223D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		180B8FF616F9B52F00A223D2 /* Build configuration list for PBXNativeTarget "iBlackListTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +621,7 @@
 				180B8FF816F9B52F00A223D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

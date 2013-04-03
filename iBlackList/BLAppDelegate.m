@@ -7,12 +7,15 @@
 //
 
 #import "BLAppDelegate.h"
-
+#import "BLRootViewController.h"
 @implementation BLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [BLBlackListManager addObserver];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    BLRootViewController *rootViewController = [[BLRootViewController alloc]init];
+    self.window.rootViewController = rootViewController;
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
@@ -27,8 +30,25 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    /* runnning in background */
+    if ([[UIDevice currentDevice] isMultitaskingSupported]) {
+        //Check if device supports mulitasking
+        UIApplication *application = [UIApplication sharedApplication];
+        //Get the shared application instance
+        __block UIBackgroundTaskIdentifier background_task;
+        //Create a task object
+        background_task = [application beginBackgroundTaskWithExpirationHandler: ^ {
+            [application endBackgroundTask: background_task];
+            /** Tell the system that we are done with the tasks **/
+            background_task = UIBackgroundTaskInvalid;
+            /** Set the task to be invalid **/
+            /** System will be shutting down the app at any point in time now **/
+        }];
+        /** Background tasks require you to use asyncrous tasks **/
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            NSLog(@"\n\nRunning in the background!\n\n");
+        });
+    }
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
