@@ -15,6 +15,7 @@
 /* initial with NSDictionary */
 - (id)initWithDic:(NSDictionary *)dic;
 
+
 /* translate into a dictionary */
 - (NSDictionary *)getDictionary;
 @end
